@@ -14,3 +14,5 @@ set autoindent
 set encoding=utf-8
 set laststatus=2
 
+colorscheme molokai
+

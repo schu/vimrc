@@ -16,3 +16,6 @@ set laststatus=2
 
 colorscheme molokai
 
+autocmd VimEnter * NERDTree
+autocmd BufEnter * NERDTreeMirror
+autocmd VimEnter * wincmd w

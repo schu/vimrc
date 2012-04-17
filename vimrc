@@ -24,3 +24,6 @@ autocmd VimEnter * wincmd w
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 set pastetoggle=<F2>
+
+highlight ColorColumn ctermbg=black
+set colorcolumn=72

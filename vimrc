@@ -26,4 +26,6 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 set pastetoggle=<F2>
 
 highlight ColorColumn ctermbg=black
-set colorcolumn=72
+if exists("+colorcolumn")
+	set colorcolumn=72
+endif

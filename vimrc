@@ -16,12 +16,13 @@ set laststatus=2
 
 colorscheme molokai
 
-autocmd VimEnter * NERDTree
-autocmd BufEnter * :silent NERDTreeMirror
-autocmd VimEnter * wincmd w
+" start NERDTree by default
+"autocmd VimEnter * NERDTree
+"autocmd BufEnter * :silent NERDTreeMirror
+"autocmd VimEnter * wincmd w
 
 " https://github.com/scrooloose/nerdtree/issues/21
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 set pastetoggle=<F2>
 

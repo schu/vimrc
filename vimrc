@@ -26,7 +26,7 @@ colorscheme molokai
 
 set pastetoggle=<F2>
 
-highlight ColorColumn ctermbg=black
+highlight ColorColumn ctermbg=grey
 if exists("+colorcolumn")
 	set colorcolumn=72
 endif

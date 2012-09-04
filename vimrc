@@ -14,7 +14,9 @@ set autoindent
 set encoding=utf-8
 set laststatus=2
 
-colorscheme molokai
+" Tomorrow-Night theme by https://github.com/chriskempson/tomorrow-theme
+
+colorscheme Tomorrow-Night
 
 " start NERDTree by default
 "autocmd VimEnter * NERDTree

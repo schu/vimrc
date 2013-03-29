@@ -26,6 +26,8 @@ colorscheme Tomorrow-Night
 " https://github.com/scrooloose/nerdtree/issues/21
 "autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
+autocmd BufNewFile *.html 0r ~/.vim/skeleton/skeleton.html
+
 set pastetoggle=<F2>
 
 highlight ColorColumn ctermbg=black

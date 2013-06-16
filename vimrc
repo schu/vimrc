@@ -28,6 +28,8 @@ colorscheme Tomorrow-Night
 
 autocmd BufNewFile *.html 0r ~/.vim/skeleton/skeleton.html
 
+autocmd BufRead,BufNewFile *.ejs setfiletype html
+
 set pastetoggle=<F2>
 
 highlight ColorColumn ctermbg=black

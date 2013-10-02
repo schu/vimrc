@@ -16,7 +16,7 @@ set laststatus=2
 
 " Tomorrow-Night theme by https://github.com/chriskempson/tomorrow-theme
 
-colorscheme Tomorrow-Night
+colorscheme molokai
 
 " start NERDTree by default
 "autocmd VimEnter * NERDTree

@@ -1,6 +1,8 @@
 
 filetype off
 
+set rtp+=$GOROOT/misc/vim
+
 call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
 

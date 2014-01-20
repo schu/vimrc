@@ -39,3 +39,5 @@ highlight ColorColumn ctermbg=black
 if exists("+colorcolumn")
 	set colorcolumn=72
 endif
+
+set list

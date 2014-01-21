@@ -40,5 +40,4 @@ if exists("+colorcolumn")
 	set colorcolumn=72
 endif
 
-set list
 set fileformats=unix

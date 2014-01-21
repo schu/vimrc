@@ -41,3 +41,4 @@ if exists("+colorcolumn")
 endif
 
 set list
+set fileformats=unix

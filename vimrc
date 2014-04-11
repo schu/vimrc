@@ -37,7 +37,7 @@ set pastetoggle=<F2>
 
 highlight ColorColumn ctermbg=black
 if exists("+colorcolumn")
-	set colorcolumn=72
+	set colorcolumn=72,80
 endif
 
 set fileformats=unix

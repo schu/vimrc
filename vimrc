@@ -41,3 +41,5 @@ if exists("+colorcolumn")
 endif
 
 set fileformats=unix
+
+set bs=indent,eol,start

@@ -43,3 +43,5 @@ endif
 set fileformats=unix
 
 set bs=indent,eol,start
+
+nmap <F8> :TagbarToggle<CR>

@@ -28,8 +28,8 @@
 [submodule "bundle/vim-yaml"]
 	path = bundle/vim-yaml
 	url = https://github.com/avakhov/vim-yaml
-[submodule "/home/schu/.vim/bundle/vim-go"]
-	path = /home/schu/.vim/bundle/vim-go
+[submodule "bundle/vim-go"]
+	path = bundle/vim-go
 	url = https://github.com/fatih/vim-go.git
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar

@@ -47,3 +47,8 @@ set bs=indent,eol,start
 nmap <F8> :TagbarToggle<CR>
 
 set directory=~/.vim/swap,/tmp
+
+let g:vimclojure#HighlightBuiltins = 1
+let g:vimclojure#ParenRainbow = 1
+
+let vimclojure#WantNailgun = 1

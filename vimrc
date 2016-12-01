@@ -15,6 +15,7 @@ set number
 set autoindent
 set encoding=utf-8
 set laststatus=2
+set hlsearch
 
 " Tomorrow-Night theme by https://github.com/chriskempson/tomorrow-theme
 

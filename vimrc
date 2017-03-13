@@ -1,6 +1,8 @@
 
 filetype off
 
+set nojoinspaces
+
 set rtp+=$GOROOT/misc/vim
 
 call pathogen#helptags()

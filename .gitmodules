@@ -34,9 +34,6 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar
-[submodule "bundle/vim-clojure"]
-	path = bundle/vim-clojure
-	url = https://github.com/vim-scripts/VimClojure.git
 [submodule "bundle/syntasic"]
 	path = bundle/syntasic
 	url = https://github.com/vim-syntastic/syntastic.git

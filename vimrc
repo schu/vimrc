@@ -49,11 +49,6 @@ set bs=indent,eol,start
 
 nmap <F8> :TagbarToggle<CR>
 
-let g:vimclojure#HighlightBuiltins = 1
-let g:vimclojure#ParenRainbow = 1
-
-let vimclojure#WantNailgun = 1
-
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*

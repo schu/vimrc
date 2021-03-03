@@ -10,9 +10,6 @@
 [submodule "bundle/vim-commentary"]
 	path = bundle/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
-[submodule "bundle/Command-T"]
-	path = bundle/Command-T
-	url = https://github.com/wincent/Command-T.git
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = https://github.com/godlygeek/tabular.git

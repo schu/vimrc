@@ -48,3 +48,7 @@ let g:syntastic_check_on_wq = 0
 
 set ignorecase
 set smartcase
+
+python3 from powerline.vim import setup as powerline_setup
+python3 powerline_setup()
+python3 del powerline_setup

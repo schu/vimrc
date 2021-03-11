@@ -17,3 +17,11 @@ echo ":so ~/.vim/vimrc" >> .vimrc
 cd ~/.vim
 git submodule add SRC bundle/DST
 ```
+
+## Remove plugins
+
+```
+git submodule deinit bundle/DST
+rm -rf .git/modules/bundle/DST
+git rm bundle/DST
+```

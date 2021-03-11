@@ -10,9 +10,6 @@
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
-[submodule "bundle/vim-puppet"]
-	path = bundle/vim-puppet
-	url = https://github.com/rodjek/vim-puppet.git
 [submodule "bundle/vim-flake8"]
 	path = bundle/vim-flake8
 	url = https://github.com/nvie/vim-flake8

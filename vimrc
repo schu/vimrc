@@ -26,6 +26,7 @@ colorscheme molokai
 autocmd BufNewFile *.html 0r ~/.vim/skeleton/skeleton.html
 
 autocmd BufRead,BufNewFile *.ejs setfiletype html
+autocmd BufRead,BufNewFile *.svelte setfiletype html
 autocmd BufRead,BufNewFile *.json setfiletype js
 
 set pastetoggle=<F2>
